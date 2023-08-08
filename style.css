@@ -64,20 +64,13 @@
 
 .wrapper {
 	display: grid;
-	/* grid-template-columns: 150px auto; */
 	grid-template-rows: auto;
-	/* grid-template-areas: "header  header"
-						 "menu	  menu"
-						 "aside	  article"
-						 "footer  footer";
-	margin: 0px; */
 	font-family: "Blogger_Sans";
 	font-weight: bold;
 	justify-items: center;
 	margin-top: 50px;
     font-size: 30px;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
-	/* grid-template-rows: 1fr; */
     grid-gap: 20px;
 	background-color: rgb(233, 221, 154);
 }
