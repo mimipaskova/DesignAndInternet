@@ -1,24 +1,24 @@
 @font-face {
 	font-family: 'SofiaSans';
-	src: url('./MyFont/SofiaSans-Black.woff2') format('woff2');
+	src: url('./myFont/SofiaSans-Black.woff2') format('woff2');
 	font-weight: normal;
 	font-style: normal;
    }
 @font-face {
 	font-family: 'SofiaSans';
-	src: url('./MyFont/SofiaSans-Bold.woff2') format('woff2');
+	src: url('./myFont/SofiaSans-Bold.woff2') format('woff2');
 	font-weight: bold;
 	font-style: normal;
 }
 @font-face {
 	font-family: 'SofiaSans';
-	src: url('./MyFont/SofiaSans-BlackItalic.woff2') format('woff2');
+	src: url('./myFont/SofiaSans-BlackItalic.woff2') format('woff2');
 	font-weight: normal;
 	font-style: italic;
 }
 @font-face {
 	font-family: 'SofiaSans';
-	src: url('./MyFont/SofiaSans-BoldItalic.woff2') format('woff2');
+	src: url('./myFont/SofiaSans-BoldItalic.woff2') format('woff2');
 	font-weight: bold;
 	font-style: italic;
 }
@@ -27,25 +27,25 @@
 
 @font-face {
 	font-family: 'Blogger_Sans';
-	src: url('./MyFont/Blogger_Sans.woff2') format('woff2');
+	src: url('./myFont/Blogger_Sans.woff2') format('woff2');
 	font-weight: normal;
 	font-style: normal;
    }
 @font-face {
 	font-family: 'Blogger_Sans';
-	src: url('./MyFont/Blogger_Sans-Bold.woff2') format('woff2');
+	src: url('./myFont/Blogger_Sans-Bold.woff2') format('woff2');
 	font-weight: bold;
 	font-style: normal;
 }
 @font-face {
 	font-family: 'Blogger_Sans';
-	src: url('./MyFont/Blogger_Sans-Italic.woff2') format('woff2');
+	src: url('./myFont/Blogger_Sans-Italic.woff2') format('woff2');
 	font-weight: normal;
 	font-style: italic;
 }
 @font-face {
 	font-family: 'Blogger_Sans';
-	src: url('./MyFont/Blogger_Sans-Bold_Italic.woff2') format('woff2');
+	src: url('./myFont/Blogger_Sans-Bold_Italic.woff2') format('woff2');
 	font-weight: bold;
 	font-style: italic;
 }
