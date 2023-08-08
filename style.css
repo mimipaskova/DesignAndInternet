@@ -70,7 +70,7 @@
 	justify-items: center;
 	margin-top: 50px;
     font-size: 30px;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-columns: repeat(4, 1fr [col-start]);
     grid-gap: 20px;
 	background-color: rgb(233, 221, 154);
 }
@@ -93,4 +93,13 @@
 
 	margin: 40px;
     text-align: center;
+}
+
+
+.home-images {
+	display: grid;
+	grid-template-columns: [line1] 300px [line2] 400px [line3] 600px [line4] auto [line5];
+	/* grid-template-columns: [line1] 400px [line2] 600px [line3] auto [line4]; */
+  	/* grid-template-rows: [row1] 25% [row2] auto [row3] auto [row4]; */
+	grid-gap: 20px;
 }
