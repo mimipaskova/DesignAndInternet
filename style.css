@@ -103,3 +103,43 @@
   	/* grid-template-rows: [row1] 25% [row2] auto [row3] auto [row4]; */
 	grid-gap: 20px;
 }
+
+@media (min-width: 1000px) and (max-width: 1500px) {
+	.content {
+		grid-template-columns: auto auto;
+	}
+
+	.wrapper {
+		grid-template-columns: auto auto;
+	}
+
+	.home-images {
+		grid-template-columns: auto auto;
+	}
+	
+}
+
+@media (min-width: 1500px) and (max-width: 1700px) {
+	.home-images {
+		grid-template-columns: auto auto auto;
+	}
+}
+
+@media  (max-width: 1000px) {
+	.content{
+		grid-template-columns: auto;
+	}
+
+	.wrapper {
+		grid-template-columns: auto;
+	}
+
+	.home-images {
+		grid-template-columns: 800px;
+		justify-items: center;
+		margin-left: 60px;
+		grid-gap: 60px;
+	
+	}
+	
+}
